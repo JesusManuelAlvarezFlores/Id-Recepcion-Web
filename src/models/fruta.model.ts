@@ -8,7 +8,9 @@ export class Fruta extends Entity {
     generated: true,
   })
   id?: number;
-  
+
+
+
   @property({
     type: 'string',
     required: true,
